@@ -8,3 +8,4 @@
   
  - Delete/move a particular past day file
   - find ./ -type f -mtime 27 -exec mv {} /var/log/apps/baks-29052019 \;
+  - find ./ -type f -mtime 36 -exec ls -l {} \; | wc -l
