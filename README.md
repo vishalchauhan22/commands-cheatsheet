@@ -15,3 +15,5 @@
  - AWK
   - cat test.csv |  awk '{split($0,a,","); print a[3],a[2],a[1]}'
   
+Brightness
+ - xrandr --output VGA-1 --brightness 0.7
