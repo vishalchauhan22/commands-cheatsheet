@@ -17,3 +17,7 @@
   
 Brightness
  - xrandr --output VGA-1 --brightness 0.7
+
+
+NODE_MODULES
+ - tar -cvzf op.tar.gz -^Cxclude=*/node_modules applications/
