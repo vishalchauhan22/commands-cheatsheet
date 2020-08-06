@@ -20,4 +20,4 @@ Brightness
 
 
 NODE_MODULES
- - tar -cvzf op.tar.gz -^Cxclude=*/node_modules applications/
+ - tar -cvzf op.tar.gz -exclude=\*/node_modules applications/
