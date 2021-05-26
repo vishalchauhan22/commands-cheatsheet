@@ -22,3 +22,14 @@ Brightness
 
 NODE_MODULES
  - tar -cvzf op.tar.gz -exclude=\*/node_modules applications/
+
+File count of dates of month
+```
+count=1
+while [ $count -lt 30 ]
+do
+  X=$(ls -ltrh | grep "May $count" | wc -l)
+  echo "May $count >> $X"
+  count=`expr $count + 1`
+done
+```
