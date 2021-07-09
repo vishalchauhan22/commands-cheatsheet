@@ -39,3 +39,6 @@ MEMORY
 `free | awk '/Mem/{printf("RAM Usage: %.0f\n"), $3/$2*100}'| awk '{print $3}'`
 
 `ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%mem | head -5`
+
+uniq based on a column from a csv
+`awk -F, '!seen[$3]++' file`
