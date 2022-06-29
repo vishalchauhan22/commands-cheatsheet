@@ -42,3 +42,24 @@ MEMORY
 
 uniq based on a column from a csv
 `awk -F, '!seen[$3]++' file`
+
+
+
+Optimal display setting
+
+xrandr -q
+
+└─$ xrandr --output VGA-1 --brightness 1 --gamma 1.05:0.92:0.82
+
+┌──(crazy㉿kali)-[~]
+└─$ xrandr --output VGA-1 --brightness 1 --gamma 1.05:0.92:0.82
+
+┌──(crazy㉿kali)-[~]
+└─$ xrandr --output VGA-1 --brightness .9 --gamma 1.05:0.92:0.82
+
+┌──(crazy㉿kali)-[~]
+└─$ xrandr --output VGA-1 --brightness .8 --gamma 1.05:0.92:0.82
+
+┌──(crazy㉿kali)-[~]
+└─$ 
+
