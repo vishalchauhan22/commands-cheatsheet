@@ -63,3 +63,12 @@ xrandr -q
 ┌──(crazy㉿kali)-[~]
 └─$ 
 
+
+TMUXXXX --------------
+
+ctrl B + % > HORIZ
+ctrl B + " > Verti
+
+
+Ctrl + b :
+set -g mouse
