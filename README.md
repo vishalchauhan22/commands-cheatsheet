@@ -72,3 +72,8 @@ ctrl B + " > Verti
 
 Ctrl + b :
 set -g mouse
+
+send command to all simultaneously
+ctrl+B
+
+: setw synchronize-panes on
