@@ -77,3 +77,8 @@ send command to all simultaneously
 ctrl+B
 
 : setw synchronize-panes on
+
+Copy to clipboard from CLI
+> tail -1000 nohup.out |xsel -ib
+
+
